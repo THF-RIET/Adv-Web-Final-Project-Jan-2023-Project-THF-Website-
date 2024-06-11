@@ -1,0 +1,97 @@
+/* img {
+    box-shadow: 0px 0px 16px 0px #c9c9c9;
+    border-radius: 12px;
+    transition: 0.5s ease;
+
+} */
+
+img:hover {
+    box-shadow: none;
+    transition: 0.5s ease;
+}
+
+.training {
+    /* font-family: Inter; */
+    font-size: 24px;
+    /* font-weight: 500; */
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.image_2 {
+    /* height: 426px; */
+    width: 562.3076782226562px;
+    /* left: 640px;
+    top: 5071px; */
+    border-radius: 8px;
+}
+
+.marke_lab {
+    /* font-family: Inter; */
+    font-size: 24px;
+    /* font-weight: 500; */
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: right;
+
+}
+
+.automation {
+    /* font-family: Inter; */
+    font-size: 24px;
+    /* font-weight: 500; */
+
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/* <------------- slider ----------> */
+
+
+.carousel-control-prev-icon {
+    background-image: url(https://static.thenounproject.com/png/1149763-200.png);
+}
+
+.carousel-control-next-icon{
+    background-image: url(https://static.thenounproject.com/png/1149770-200.png);
+}
+.carousel-indicators .active{
+    background-color: black;
+    
+} 
+.carousel-control-prev {
+    left: -80px;
+    z-index: 0;
+}
+.carousel-control-next {
+    right: -80px;
+    z-index: 0;
+}
+.carousel-indicators button{
+    background-color: black !important;
+    border-radius: 50% !important;
+    height: 15px !important;
+    width: 15px !important;
+    
+}
+/* .carousel-item > img{
+    width: 500px !important;
+    height: 500px !important;
+
+} */
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -55px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}

@@ -1,0 +1,98 @@
+#Navbar {
+    position: fixed;
+    height: 65px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #46972C;
+    z-index: 1;
+}
+
+.logo {
+    position: absolute;
+    width: 116px;
+    height: 47px;
+    left: 5px;
+    top: 9px;
+}
+
+.logo-tiny {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 8px;
+    right: 100px;
+
+
+}
+
+
+/**Navbar**/
+.navbar {
+    position: relative;
+    width: auto;
+    height: auto;
+    /* right: 245px; */
+    margin-top: 110px;
+    background: #ffff;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 100;
+}
+
+.nav-item {
+    /* background-color: #ffff; */
+    padding: 0px 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+    position: relative;
+    transition: 0.1s;
+}
+
+
+
+
+/**Enroll**/
+
+.enroll-link {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    background-color: #043C8B;
+    border-radius: 8px;
+    color: #ffff;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 991px) {
+    .navbar {
+        position: relative;
+        width: auto;
+        height: auto;
+        margin-top: 1px;
+        margin-left: auto;
+        background-color: #46972C !important;
+        border-radius: 8px;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .Enroll-btn {
+        display: none;
+    }
+}
