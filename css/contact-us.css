@@ -1,0 +1,435 @@
+
+
+#Navbar {
+    position: absolute;
+    height: 65px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #46972C;
+    z-index: 1;
+}
+
+.logo {
+    position: absolute;
+    width: 116px;
+    height: 47px;
+    left: 5px;
+    top: 9px;
+}
+
+.logo-tiny {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 8px;
+    right: 100px;
+
+
+}
+
+
+/**Navbar**/
+.navbar {
+    position: relative;
+    width: auto;
+    height: auto;
+    /* right: 245px; */
+    margin-top: 110px;
+    background: #ffff;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 100;
+}
+
+.nav-item {
+    /* background-color: #ffff; */
+    padding: 0 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+    position: relative;
+    transition: 0.1s;
+}
+
+
+
+
+/**Enroll**/
+
+.enroll-link {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    background-color: #043C8B;
+    border-radius: 8px;
+    color: #ffff;
+}
+
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 445px){
+    .sign-up{
+       top: 850px;
+    }
+   }
+   
+   @media only screen and (min-device-width: 300px) and (max-device-width: 991px) {
+       .navbar {
+           position: relative;
+           width: auto;
+           height: auto;
+           margin-top: 1px;
+           margin-left: auto;
+           background-color: #46972C !important;
+           border-radius: 8px;
+       }
+   
+   
+   
+       .navbar-brand {
+           display: none;
+       }
+   
+       .Enroll-btn {
+           display: none;
+       }
+   }
+   
+
+   /* CONTACT US */
+
+.contacts{
+    background-image: url(../assets/images/banners/WhatsApp\ Image\ 2023-05-30\ at\ 22.53.00.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    opacity: 0.5;
+    
+
+}
+.head{
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 15%;
+    padding: 5%;
+    font-weight: bold;
+
+}
+.Karachi{
+    margin-top: 50px;
+}
+.Pakistan{
+    color: #043C8B;
+   text-align: center;
+   margin-left: 5%;
+   text-decoration: underline;
+}
+@media only screen and (max-width: 1000px) {
+    .contacts{
+        background-image: url(images/WhatsApp\ Image\ 2023-05-30\ at\ 22.53.00.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        padding: 10%;
+    
+    }
+
+}
+
+.fa-solid{
+    margin: 5%;
+}
+
+/* .underlined{
+    width: 85px;
+    height: 5px;
+    background-color: #043C8B;
+    margin-left: 200px;
+}  */
+
+/* 
+leAVE s your information */
+
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    padding: 0;
+    align-items: center;
+    /* background:  #d5a8fc; */
+} 
+
+.contact-in{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px #666;
+    margin-top: 5%;
+}
+.map{
+    padding: 5%;
+}
+.contact-map {
+    width: 100%;
+    height: auto;
+    flex: 50%;
+}
+
+.contact-map iframe {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.contact-form {
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    padding: 30px;
+    align-items: center;
+}
+
+.contact-form h1 {
+   margin-bottom: 10px;
+}
+
+.contact-form-text {
+    width: 100%;
+  height: 40px;
+  color: #000;
+  border: 1px solid #bcbcbc;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.contact-form-textarea {
+    width: 100%;
+  height: 130* px;
+  color: #000;
+  border: 1px solid #bcbcbc;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-form-btn{
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background: #421ecf;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.contact-form-textarea::placeholder{
+color: #aaa;
+}
+
+/* FOOTER */
+
+  /* Footer */
+
+  footer {
+    background: #000000;
+    color: #FFFFFF;
+    padding-top: 4%;
+}
+
+footer .title {
+    margin-bottom: 33px;
+    width: 237px;
+    height: 36px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+footer .list2 a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .list a {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+footer .list a:hover,
+footer .list2 a:hover {
+    color: blue;
+}
+
+.footer-last {
+    padding-top: 40px;
+}
+
+footer .footer-last .social {
+    position: relative;
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+footer .footer-last .social h3 {
+    width: 117.51px;
+    margin-top: 5px;
+    height: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.contact {
+    text-align: end;
+    /* margin-right: 20%; */
+}
+
+
+/* social */
+
+.facebook {
+    margin: 0 0 10px 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.twitter {
+    margin: 0 0 10px 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.linkedin {
+    margin: 0 0 10px 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.youtube {
+    margin: 0 0 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.instagram {
+    margin: 0 0 10px 20px;
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    #logo {
+        margin: 20px 0 20px 0;
+    }
+    footer .list a {
+        margin: 0;
+    }
+    footer .footer-last .social {
+        display: block;
+        margin: 0;
+    }
+    .contact {
+        text-align: start;
+    }
+    .contact1 {
+        display: block;
+    }
+}
+
+/* cobntact us */
+
+@media only screen and (max-width: 600px){
+    /* .contactus{
+       
+    } */
+}
+
+
+ /* FAQ QUESTION */
+
+/* .faq {
+    padding: 60px 0;
+  }
+  .faq .faq-list {
+    padding: 0;
+    list-style: none;
+  }
+  .faq .faq-list li {
+      background-color: #ffee5a;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      padding: 10px 40px;
+  }
+  .faq .faq-list a {
+      display: block;
+      position: relative;
+      font-size: 16px;
+      font-weight: 600;
+      color: #333333;
+      text-decoration: none;
+  }
+  
+  .faq .faq-list i {
+    font-size: 16px;
+    position: absolute;
+    left: -25px;
+    top: 6px;
+    transition: 1s;
+  }
+  .faq-title {
+      text-align: center;
+      font-size: 17px;
+      border-bottom: 2px dashed #ffffff;
+      margin-bottom: 30px;
+      padding-bottom: 10px;
+      color: #ffffff;
+  }
+  
+  .faq .faq-list p {
+    padding-top: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  
+  .collapsed i.fas.fa-arrow-up {
+      transform: rotate(180deg);
+  } */
+
+/* padding: 5%; */
+
+
+

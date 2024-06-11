@@ -1,0 +1,721 @@
+#Navbar {
+    position: fixed;
+    height: 65px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #46972C;
+    z-index: 1;
+}
+
+.logo {
+    position: absolute;
+    width: 116px;
+    height: 47px;
+    left: 50px;
+    top: 9px;
+}
+
+.logo-tiny {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 8px;
+    right: 100px;
+}
+
+
+/**Navbar**/
+
+.navbar {
+    position: relative;
+    width: auto;
+    height: auto;
+    /* right: 245px; */
+    margin-top: 110px;
+    background: #ffff;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 100;
+}
+
+.nav-item {
+    /* background-color: #ffff; */
+    padding: 0px 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+    position: relative;
+    transition: 0.1s;
+}
+
+
+/**Enroll**/
+
+.enroll-link {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    background-color: #043C8B;
+    border-radius: 8px;
+    color: #ffff;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 991px) {
+    .navbar {
+        position: relative;
+        width: auto;
+        height: auto;
+        margin-top: 1px;
+        margin-left: auto;
+        background-color: #46972C !important;
+        border-radius: 8px;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .Enroll-btn {
+        display: none;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+}
+
+.background-image {
+    background-image: url(../assets/images/banners/about-us.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    /* Set the height as per your requirement */
+    color: #070606;
+    display: flex;
+}
+
+.ok {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    margin-left: 27%;
+    margin-top: 10%;
+}
+
+.texts {
+    color: #043C8B;
+    font-family: 'Inter';
+    text-align: center;
+    padding-top: 300px;
+    font-weight: 800;
+    line-height: 55px;
+}
+
+.text {
+    color: #043C8B;
+    font-size: 65;
+    font-family: 'Inter';
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.about {
+    padding: 30px;
+}
+
+.lines {
+    position: absolute;
+    width: 11.03px;
+    height: 110px;
+    margin-right: 10px;
+    background: #46972C;
+    border-radius: 5px;
+}
+
+.green {
+    margin-left: 30px;
+}
+
+.card-grou {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardssso:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-16px);
+}
+
+.cardsssso:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-16px);
+}
+
+.cardssso {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 350px;
+    height: 50%;
+    margin: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #F5F5F5;
+    margin: 2% 10%;
+}
+
+.cardsssso {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 350px;
+    height: 50%;
+    margin: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: white;
+    margin: 2% 3%;
+}
+
+.box-value {
+    width: 240px;
+    height: 39px;
+    background: #043C8B;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: medium;
+    padding: 11px;
+    margin: 11%;
+    text-align: left;
+    margin-left: 0%;
+}
+
+.box-values {
+    width: 100px;
+    height: 39px;
+    background: #043C8B;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: medium;
+    padding: 5px;
+    margin: 10%;
+    margin-left: 0%;
+}
+
+.box-val {
+    width: 150px;
+    height: 39px;
+    background: #1f8b04;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: medium;
+    padding: 5px;
+    margin: 10%;
+    text-align: center;
+    margin-left: 0%;
+}
+
+.card-titleeeo {
+    font-size: 26px;
+    margin-right: 62%;
+    font-weight: bolder;
+}
+
+.last {
+    background-color: #F5F5F5;
+    height: auto;
+    padding: 30px;
+}
+
+.high {
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.low {
+    font-size: 20px;
+    margin-top: 60px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.quality {
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*  */
+
+.campus-life-box {
+    background: url(../assets/images/board-members/aslam-khaliq.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 425px;
+    border-radius: 10px;
+}
+
+.box-campus {
+    position: relative;
+    width: 737px;
+    height: 61px;
+    top: 200px;
+    bottom: 208px;
+}
+
+.box-campus h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #fff;
+    z-index: 1px;
+}
+
+
+/* CEO */
+
+.ceo-thf {
+    background: url('../assets/images/icons/coo.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 425px;
+    border-radius: 10px;
+}
+
+.box-campus {
+    position: relative;
+    width: 737px;
+    height: 61px;
+    top: 200px;
+    bottom: 208px;
+}
+
+.box-campus h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #fff;
+    z-index: 1px;
+}
+
+
+/* ceo-2-thf */
+
+.ceo-2-thf {
+    /* background: url(../assets/images/management/ali-faraz.jpg); */
+    background-size: cover;
+    width: 100%;
+    height: 425px;
+    border-radius: 10px;
+}
+
+.box-campus {
+    position: relative;
+    width: 737px;
+    height: 61px;
+    top: 200px;
+    bottom: 208px;
+}
+
+.box-campus h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #fff;
+    z-index: 1px;
+}
+
+@media (max-width: 750px) {
+    .background-image {
+        background-image: url(images/Picsart_23-05-17_20-31-31-698.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 350px;
+        /* Set the height as per your requirement */
+        color: #070606;
+        display: flex;
+    }
+    .texts {
+        color: #043C8B;
+        font-family: 'Inter';
+        text-align: center;
+        padding-top: 220px;
+        font-weight: 900px;
+        line-height: 35px;
+    }
+    .green {
+        margin-left: 30px;
+        font-size: 15px;
+    }
+    .about {
+        padding: 10px;
+    }
+    .ok {
+        display: flex;
+        justify-content: center;
+        /* Center horizontally */
+        align-items: center;
+        margin-left: 10%;
+        margin-top: 20%;
+    }
+    .box-value {
+        width: 240px;
+        height: 39px;
+        background: #043C8B;
+        border-radius: 8px;
+        color: white;
+        font-size: 18px;
+        font-weight: medium;
+        padding: 11px;
+        margin: 11%;
+        margin-left: 0%;
+        text-align: left;
+    }
+    .container #box40 {
+        margin-left: 15px;
+    }
+    .cardsss {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 350px;
+        height: 50%;
+        margin: 20px;
+        border-radius: 15px;
+        overflow: hidden;
+        padding: 5px;
+        background-color: white;
+        margin: 2% 10%;
+        margin-top: 40px;
+    }
+    .cardssss {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 350px;
+        height: 50%;
+        margin: 20px;
+        border-radius: 15px;
+        overflow: hidden;
+        padding: 5px;
+        background-color: white;
+        margin: 2% 10%;
+        margin-top: 40px;
+    }
+    .high {
+        font-size: 30px;
+        text-align: left;
+    }
+    .quality {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .low {
+        font-size: 17px;
+    }
+}
+
+
+/* ////////Riz////////// */
+
+.card-groupsss {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardsss:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-16px);
+}
+
+.cardsss {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 300px;
+    height: 50%;
+    margin: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 6px;
+    background-color: #F5F5F5;
+}
+
+.image {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.card-titleee {
+    font-weight: 700;
+    font-size: 17px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+    margin-top: 15px;
+    text-align: center
+}
+
+.card-textsss {
+    color: #8B8B8B;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#pic {
+    width: 100%;
+    height: 80%;
+    Fill: Linear Gradient rgba(0, 0, 0, 0.21) #000000;
+}
+
+.lines {
+    position: absolute;
+    width: 11.03px;
+    height: 110px;
+    background: #46972C;
+    border-radius: 5px;
+}
+
+.para {
+    margin-left: 6%;
+    color: #494444;
+    width: 75%;
+    font-size: 20px;
+}
+
+.team {
+    padding: 30px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.MANAGEMENT {
+    position: relative;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .team {
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 33px;
+    }
+    .para {
+        margin-left: 6%;
+        color: #494444;
+        font-size: 16px;
+        text-align: left;
+    }
+    #pic {
+        width: 100%;
+        height: 80%;
+        Fill: Linear Gradient rgba(0, 0, 0, 0.21) #000000;
+    }
+}
+
+
+/* ================================== first page ======================================= */
+
+#pic {
+    width: 100%;
+    height: 80%;
+    Fill: Linear Gradient rgba(0, 0, 0, 0.21) #000000;
+}
+
+.lines {
+    position: absolute;
+    width: 11.03px;
+    height: 110px;
+    background: #46972C;
+    border-radius: 5px;
+}
+
+.card img {
+    border-radius: 280px;
+    width: 170px;
+    padding-top: 10px;
+    margin-left: 40px;
+    object-fit: cover;
+}
+
+.effect {
+    transition: all 0.3s;
+}
+
+.effect:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width:320px) {
+    .kaka {
+        margin-left: 25px;
+    }
+}
+
+
+/* ============================================= first page ================================== */
+
+
+/* Footer */
+
+footer {
+    background: #000000;
+    color: #FFFFFF;
+    padding-top: 4%;
+}
+
+footer .title {
+    margin-bottom: 33px;
+    width: 237px;
+    height: 36px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+footer .list2 a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .list a {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+footer .list a:hover,
+footer .list2 a:hover {
+    color: blue;
+}
+
+.footer-last {
+    padding-top: 40px;
+}
+
+footer .footer-last .social {
+    position: relative;
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+footer .footer-last .social h3 {
+    width: 117.51px;
+    margin-top: 5px;
+    height: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.contact {
+    text-align: end;
+}
+
+
+/* social */
+
+.facebook {
+    margin: 0 0 10px 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.twitter {
+    margin: 0 0 10px 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.linkedin {
+    margin: 0 0 10px 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.youtube {
+    margin: 0 0 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.instagram {
+    margin: 0 0 10px 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.contact1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    #logo {
+        margin: 20px 0 20px 0;
+    }
+    footer .list a {
+        margin: 0;
+    }
+    footer .footer-last .social {
+        display: block;
+        margin: 0;
+    }
+    .contact {
+        text-align: start;
+    }
+    .contact1 {
+        display: block;
+    }
+}

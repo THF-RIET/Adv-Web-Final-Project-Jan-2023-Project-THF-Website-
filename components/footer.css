@@ -1,0 +1,120 @@
+/* Footer */
+
+footer {
+    background: #000000;
+    color: #FFFFFF;
+    padding: 4%;
+}
+
+footer .title {
+    margin-bottom: 33px;
+    width: 237px;
+    height: 36px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+footer .list2 a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .list a {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+footer .list a:hover,
+footer .list2 a:hover {
+    color: blue;
+}
+
+.footer-last {
+    padding-top: 40px;
+}
+
+footer .footer-last .social {
+    position: relative;
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+footer .footer-last .social h3 {
+    width: 117.51px;
+    margin-top: 5px;
+    height: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.contact {
+    text-align: end;
+}
+
+
+/* social */
+
+.facebook {
+    margin: 0 0 10px 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.twitter {
+    margin: 0 0 10px 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.linkedin {
+    margin: 0 0 10px 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.youtube {
+    margin: 0 0 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.instagram {
+    margin: 0 0 10px 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.contact1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    #logo {
+        margin: 20px 0 20px 0;
+    }
+    footer .list a {
+        margin: 0;
+    }
+    footer .footer-last .social {
+        display: block;
+        margin: 0;
+    }
+    .contact {
+        text-align: start;
+    }
+    .contact1 {
+        display: block;
+    }
+}
